@@ -1,0 +1,163 @@
+:root {
+  --bg: #fff;
+  --card: #0f0f10;
+  --muted: #9aa3ad;
+  --accent: #1763ff;
+}
+
+.attainments-bg {
+
+  min-height: 100vh;
+  padding: 0;
+
+}
+
+.attainments-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.attainments-left, .attainments-right {
+  flex: 1 1 420px;
+  min-width: 320px;
+}
+
+.attainments-right{
+   float: left;
+}
+.attainments-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.attainments-sub {
+  font-size: 1.08rem;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.attainments-circles {
+  display: flex;
+  gap: 38px;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.attainments-circle-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.button-81{
+  background-color: #fff;
+    border: 2px solid #0d172a;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+
+@media (min-width: 768px) {
+  .button-81, .button-82 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+  
+}
+
+.attainments-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.attainments-bar-wrap {
+  width: 100%;
+}
+
+.attainments-bar-label {
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.attainments-bar-bg {
+  position: relative;
+  background: #f0f0f0;
+  border-bottom: 2px solid #222;
+  height: 18px;
+  border-radius: 8px;
+  overflow: visible;
+}
+
+.attainments-bar-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 18px;
+  background: #575757;
+  border-radius: 8px 0 0 8px;
+  transition: width 1s cubic-bezier(.2,.9,.2,1);
+}
+
+.attainments-bar-percent {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #222;
+  background: #f0f0f0;
+  padding-left: 8px;
+}
+
+@media (max-width: 900px) {
+  .attainments-section {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 8px;
+  }
+  .attainments-left, .attainments-right {
+    min-width: 0;
+
+  }
+  .attainments-right {
+    margin-left: 0;
+  }
+  .attainments-circles {
+    justify-content: center;
+    gap: 24px;
+  }
+}

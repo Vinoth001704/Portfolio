@@ -1,0 +1,190 @@
+{
+  "name": "VinothKumar S",
+  "role": ["Full Stack Developer", "Web Developer", "Java Developer"],
+  "photo": "./images/portfolio-illustration2.jpg",
+  "summary": "A passionate B.Tech graduate specializing in Artificial Intelligence & Data Science with hands-on expertise in the MERN stack. Proficient in building dynamic, responsive web applications using React on the front end, Node.js and Express on the back end, and MongoDB for database management. Eager to leverage modern technologies to deliver impactful digital solutions.",
+  "contact": {
+    "email": "vinothkumar00023@gmail.com",
+    "phone": "+91 80727 31639",
+    "location": "Salem, Tamil Nadu, India",
+    "linkedin": "www.linkedin.com/in/vinothkumar-s-615964265",
+    "github": "https://github.com/Vinoth001704/"
+  },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "percent": 90,
+      "color": "#F0DB4F"
+    },
+    {
+      "name": "React JS",
+      "percent": 85,
+      "color": "#61DAFB"
+    },
+    {
+      "name": "Node.js",
+      "percent": 80,
+      "color": "#3C873A"
+    },
+    {
+      "name": "HTML",
+      "percent": 95,
+      "color": "#E34F26"
+    },
+    {
+      "name": "CSS",
+      "percent": 92,
+      "color": "#264DE4"
+    },
+    {
+      "name": "Java",
+      "percent": 75,
+      "color": "#B07219"
+    },
+    {
+      "name": "SQL",
+      "percent": 70,
+      "color": "#00758F"
+    },
+    {
+      "name": "MongoDB",
+      "percent": 78,
+      "color": "#47A248"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Artificial Intelligence and Data Science",
+      "college": "Ganamani College of Technology",
+      "institution": "Anna University",
+      "year": "2021 - 2025",
+      "percentage": "70%",
+      "Place": "Pachal, Namakkal",
+      "summary": "Graduated with a B.Tech in Artificial Intelligence and Data Science from Anna University in June 2025, achieving a CGPA of 6.8. Developed a strong foundation in machine learning, data analytics, and full-stack development throughout the program."
+    },
+    {
+      "degree": "Higher Secondary",
+      "field": "Maths Computer Science",
+      "school": "Government Boys Higher Secondary School",
+      "board": "State Board",
+      "year": "2019 - 2021",
+      "percentage": "68%",
+      "Place": "Attur, Salem",
+      "summary": "Completed Higher Secondary Certificate (HSC) in April 2021 under the State Board with a score of 416/600. Built a solid academic foundation in mathematics and computer science, fostering strong analytical and logical reasoning skills."
+    },
+    {
+      "degree": "Secondary School",
+      "school": "Tagore Matriculation Higher Secondary School",
+      "board": "State Board",
+      "year": "2018 - 2019",
+      "percentage": "69%",
+      "Place": "Deviyakurichi, Salem",
+      "summary": "Completed SSLC under the State Board in 2019 from Tagore Matriculation Higher Secondary School with a score of 312/500. Established core academic discipline and a strong base in foundational subjects."
+    }
+  ],
+  "projects": [
+    {
+      "title": "FestMate Web App",
+      "summary": "A full-stack web application for seamless event planning, registration, and real-time coordination.",
+      "description": "FestMate is a comprehensive event management platform built with the MERN stack. It enables organizers to create and manage events while allowing attendees to register and receive live updates. The application features secure authentication, an intuitive dashboard, and a fully responsive interface.",
+      "url": "https://fest-mate-web-app.vercel.app/",
+      "github": "https://github.com/Vinoth001704/FestMateWebApp",
+      "tools": [ "MongoDB","Express.js","React.js", "Node.js","Css" ],
+      "features": [
+        "Event creation and management",
+        "User registration and authentication",
+        "Real-time updates",
+        "Responsive design"
+      ],
+      "image": "https://placehold.co/600x400/1976d2/ffffff?text=FestMate",
+      "year": "10/01/2025 - 10/03/2025",
+      "status": "Completed"
+    },
+     {
+      "title": "FitSphere - Gym Management",
+      "summary": "A full-featured gym management system for members, trainers, and administrators.",
+      "description": "FitSphere is a comprehensive gym management web application that streamlines member registration, membership plans, trainer assignments, and attendance tracking. Built with Java, Spring Boot, and MySQL on the backend with React.js on the frontend, it features role-based dashboards for admins, trainers, and members, along with workout scheduling, payment tracking, and progress monitoring — all wrapped in a responsive, modern interface.",
+      "url": "",
+      "github": "https://github.com/Vinoth001704/FitSphere",
+      "tools": ["Java", "Spring Boot", "MySQL", "React.js", "CSS"],
+      "features": [
+        "Member registration and profiles",
+        "Membership plan management",
+        "Trainer assignment and scheduling",
+        "Attendance and progress tracking",
+        "Role-based dashboards"
+      ],
+      "image": "https://placehold.co/600x400/00897B/ffffff?text=FitSphere",
+      "year": "2025",
+      "status": "Completed"
+    },
+    {
+      "title": "Strong Password Generator",
+      "summary": "A lightweight utility tool that creates secure, customizable passwords instantly.",
+      "description": "A clean, user-friendly web application that generates cryptographically strong passwords tailored to user preferences. Users can configure password length, include or exclude character types (uppercase, lowercase, numbers, symbols), and copy the result to the clipboard with a single click. Built with vanilla HTML, CSS, and JavaScript for fast, dependency-free performance.",
+      "url": "https://vinoth-password-generator.com",
+      "github": "https://github.com/vinoth/password-generator",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Customizable password length",
+        "Character type selection",
+        "Copy to clipboard"
+      ],
+      "image": "https://placehold.co/600x400/3C873A/ffffff?text=Password+Generator",
+      "year": "15/11/2024 - 20/11/2024",
+      "status": "Completed"
+    },
+    {
+      "title": "Weather App",
+      "summary": "A responsive weather application delivering real-time forecasts and location-based updates.",
+      "description": "A dynamic weather application that fetches and displays real-time meteorological data using the OpenWeatherMap API. Users can search for any location worldwide to view current conditions and a detailed 5-day forecast. Built with React.js, the app features an intuitive UI, smooth animations, and a fully responsive layout optimized for all devices.",
+      "url": "https://vinoth-weather-app.com",
+      "github": "https://github.com/vinoth/weather-app",
+      "tools": ["React.js", "OpenWeatherMap API", "JavaScript", "CSS"],
+      "features": [
+        "Current weather display",
+        "5-day forecast",
+        "Location search",
+        "Responsive mobile UI"
+      ],
+      "image": "https://placehold.co/600x400/F0DB4F/222222?text=Weather+App",
+      "year": "22/03/2024 - 10/04/2024",
+      "status": "Completed"
+    },
+    {
+      "title": "QR Code Generator",
+      "summary": "A simple web tool to instantly generate QR codes from any text or URL.",
+      "description": "A clean and intuitive QR Code Generator that lets users enter any text or URL and instantly produces a scannable QR code. Built with HTML, CSS, and JavaScript, the app offers a responsive UI with real-time generation and easy download options for the generated codes.",
+      "url": "https://regal-fudge-d66902.netlify.app/",
+      "github": "https://github.com/Vinoth001704/QRCodeGenerator",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Real-time QR code generation",
+        "Text and URL support",
+        "Download QR code",
+        "Responsive design"
+      ],
+      "image": "https://placehold.co/600x400/8E24AA/ffffff?text=QR+Code+Generator",
+      "year": "2024",
+      "status": "Completed"
+    },
+    {
+      "title": "Hangman Game",
+      "summary": "A classic word-guessing game built as an interactive web application.",
+      "description": "An engaging Hangman game where players guess letters to reveal a hidden word before running out of attempts. Features a visual hangman drawing that updates with each wrong guess, a virtual keyboard for letter selection, and a variety of word categories. Built with HTML, CSS, and JavaScript for a smooth, fun experience.",
+      "url": "https://hangmangamein.netlify.app/",
+      "github": "https://github.com/Vinoth001704/HangmanGame",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Interactive letter guessing",
+        "Visual hangman drawing",
+        "Multiple word categories",
+        "Responsive design"
+      ],
+      "image": "https://placehold.co/600x400/E65100/ffffff?text=Hangman+Game",
+      "year": "2024",
+      "status": "Completed"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+:root{
+  --bg:#ffff;
+  --card:#0f0f10;
+  --muted:#9aa3ad;
+  --accent:#1763ff; /* fallback accent */
+}
+
+.skills-section {
+  min-height: 60vh;
+  padding: 40px 20px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-title {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  letter-spacing: 0.6px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  padding: 8px;
+}
+
+.skill-card {
+  width: 180px;
+  height: 220px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+  position: relative;
+  overflow: visible;
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+/* visible state (cards appear one-by-one) */
+.skill-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* subtle hover */
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(2,6,23,0.6);
+  border-color: rgba(255,255,255,0.06);
+}
+
+/* keep svg clean (no heavy colored drop-shadow) */
+.skill-card .cpb-svg {
+  filter: none;
+  transition: transform .22s ease;
+}
+
+/* slight lift of svg on hover */
+.skill-card:hover .cpb-svg {
+  transform: translateY(-4px);
+}
+
+/* skill name uses skill color if provided via inline style (--skill-color fallback) */
+.skill-name {
+  color: var(--skill-color, #222);
+  margin-top: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform:capitalize;
+  font-size: 0.92rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* center percentage below SVG if you show it */
+.skill-percent {
+  margin-top: 8px;
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .skill-card { width: 140px; height: 180px; }
+  .skills-title { font-size: 1.4rem; }
+}
