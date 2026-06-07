@@ -24,7 +24,7 @@ export default function ContactPage() {
               </span>
               <div>
                 <div className="fw-semibold">E-mail</div>
-                <div>vinothkumar00023@gmail.com</div>
+                <div>vinothkumarsenthilmurugan@gmail.com</div>
               </div>
             </div>
             <div className="mb-3 d-flex align-items-center">
