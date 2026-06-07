@@ -7,7 +7,7 @@
     "email": "vinothkumarsenthilmurugan@gmail.com",
     "phone": "+91 80727 31639",
     "location": "Salem, Tamil Nadu, India",
-    "linkedin": "www.linkedin.com/in/vinothkumar-s-615964265",
+    "linkedin": "https://www.linkedin.com/in/vinothkumarsenthilmurugan",
     "github": "https://github.com/Vinoth001704/"
   },
   "skills": [
@@ -103,7 +103,7 @@
     },
      {
       "title": "FitSphere - Gym Management",
-      "summary": "A full-featured gym management system for members, trainers, and administrators.",
+      "summary": "Manages job applications, tracks statuses, and organizes recruitment progress.",
       "description": "FitSphere is a comprehensive gym management web application that streamlines member registration, membership plans, trainer assignments, and attendance tracking. Built with Java, Spring Boot, and MySQL on the backend with React.js on the frontend, it features role-based dashboards for admins, trainers, and members, along with workout scheduling, payment tracking, and progress monitoring — all wrapped in a responsive, modern interface.",
       "url": "",
       "github": "https://github.com/Vinoth001704/FitSphere",
@@ -114,6 +114,23 @@
         "Trainer assignment and scheduling",
         "Attendance and progress tracking",
         "Role-based dashboards"
+      ],
+      "image": "https://placehold.co/600x400/00897B/ffffff?text=FitSphere",
+      "year": "2025",
+      "status": "Completed"
+    },
+     {
+      "title": "ApplyValute",
+      "summary": "A full-featured gym management system for members, trainers, and administrators.",
+      "description": "ApplyValute is a web-based job application tracking system that helps users manage and monitor their job applications. Users can add, update, view, and delete application records, track application status (Applied, Interview, Rejected, Selected), and organize job search activities efficiently. The application is developed using Spring Boot for the backend, REST APIs for communication, and MySQL for data storage.",
+      "url": "",
+      "github": "",
+      "tools": ["Java", "Spring Boot", "MySQL", "React.js", "CSS"],
+      "features": [
+        "Resume upload feature.",
+        "Dashboard with application statistics.",
+        "Search and filter by company/status.",
+        "Admin panel for monitoring users and applications."
       ],
       "image": "https://placehold.co/600x400/00897B/ffffff?text=FitSphere",
       "year": "2025",
