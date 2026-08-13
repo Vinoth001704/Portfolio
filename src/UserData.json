@@ -1,6 +1,6 @@
 {
   "name": "VinothKumar S",
-  "role": ["Full Stack Developer", "Web Developer", "Java Developer"],
+  "role": ["Software Developer", "Java Full Stack Developer & MERN"],
   "photo": "./images/portfolio-illustration2.jpg",
   "summary": "A passionate B.Tech graduate specializing in Artificial Intelligence & Data Science with hands-on expertise in the MERN stack. Proficient in building dynamic, responsive web applications using React on the front end, Node.js and Express on the back end, and MongoDB for database management. Eager to leverage modern technologies to deliver impactful digital solutions.",
   "contact": {
@@ -8,7 +8,9 @@
     "phone": "+91 80727 31639",
     "location": "Salem, Tamil Nadu, India",
     "linkedin": "https://www.linkedin.com/in/vinothkumarsenthilmurugan",
-    "github": "https://github.com/Vinoth001704/"
+    "github": "https://github.com/Vinothkumar2003/",
+    "instagram": "https://www.instagram.com/vinoth.kumar_1",
+    "facebook":"https://www.facebook.com/vinoth.vinothkumar.vinoth.2025/"
   },
   "skills": [
     {
