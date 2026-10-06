@@ -1,0 +1,322 @@
+{
+  "name": "Vinoth Kumar S",
+  "role": ["Software Developer", "Full Stack Developer"],
+  "photo": "./images/homeImage.jpg",
+  "summary": "I’m a passionate Software Developer and Full-Stack Developer with a B.Tech in Artificial Intelligence and Data Science. I enjoy building responsive, user-friendly, and reliable web applications using modern frontend and backend technologies. I have a strong interest in Java and full-stack development, and I’m continuously improving my technical and problem-solving skills to create clean, efficient, and maintainable software solutions.",
+  "contact": {
+    "email": "vinothkumarsenthilmurugan@gmail.com",
+    "phone": "+91 80727 31639",
+    "location": "Salem, Tamil Nadu, India",
+    "linkedin": "https://www.linkedin.com/in/vinothkumar-senthilmurugan",
+    "github": "https://github.com/Vinothkumar2003/",
+    "instagram": "https://www.instagram.com/vinothkumarsenthilmurugan/",
+    "facebook": "https://www.facebook.com/vinoth.vinothkumar.vinoth.2025/"
+  },
+  "skillLevels": [
+    { "name": "JavaScript", "percent": 90, "color": "#F0DB4F" },
+    { "name": "React JS", "percent": 85, "color": "#61DAFB" },
+    { "name": "Node.js", "percent": 80, "color": "#3C873A" },
+    { "name": "HTML", "percent": 95, "color": "#E34F26" },
+    { "name": "CSS", "percent": 92, "color": "#264DE4" },
+    { "name": "Java", "percent": 75, "color": "#B07219" },
+    { "name": "SQL", "percent": 70, "color": "#00758F" },
+    { "name": "MongoDB", "percent": 78, "color": "#47A248" }
+  ],
+  "skills": [
+    {
+      "title": "Frontend Development",
+      "icon": "globe",
+      "skills": ["HTML5", "CSS3", "JavaScript", "React.js", "Redux", "Context API", "Axios"]
+    },
+    {
+      "title": "Backend Development",
+      "icon": "code",
+      "skills": ["Java", "Spring Boot", "Node.js", "Express.js", "RESTful APIs"]
+    },
+    {
+      "title": "Java Technologies",
+      "icon": "coffee",
+      "skills": ["OOP", "Collections", "Multithreading", "Spring Security", "Hibernate", "JPA"]
+    },
+    {
+      "title": "Databases",
+      "icon": "database",
+      "skills": ["MySQL", "MongoDB", "Mongoose"]
+    },
+    {
+      "title": "Authentication",
+      "icon": "shield",
+      "skills": ["JWT", "Password Hashing"]
+    },
+    {
+      "title": "Developer Tools",
+      "icon": "terminal",
+      "skills": ["Git", "GitHub", "Maven", "Postman"]
+    },
+    {
+      "title": "Soft Skills",
+      "icon": "users",
+      "skills": ["Problem Solving", "Communication", "Adaptability", "Time Management", "Quick Learning"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Gnanamani College of Technology",
+      "degree": "B.Tech. Artificial Intelligence and Data Science",
+      "scoreType": "CGPA",
+      "score": "6.8",
+      "year": "2021 – 2025",
+      "location": "Namakkal, Tamil Nadu"
+    },
+    {
+      "institution": "Government Boys Higher Secondary School",
+      "degree": "Higher Secondary Certificate (H.S.C)",
+      "scoreType": "Percentage",
+      "score": "69%",
+      "year": "2019 – 2021",
+      "location": "Attur, Salem Tamil Nadu"
+    },
+    {
+      "institution": "Tagore Matriculation Higher Secondary School",
+      "degree": "Higher Secondary Certificate (H.S.C)",
+      "scoreType": "Percentage",
+      "score": "69%",
+      "year": "2018 - 2019",
+      "location": "Deviyakurichi, Salem, Tamil Nadu"
+    }
+  ],
+  "experience": [
+  {
+    "title": "Full Stack with AI Intern",
+    "company": "Ether Services",
+    "duration": "3 Months",
+    "location": "Coimbatore, Tamil Nadu",
+    "description": "Gained hands-on experience in full-stack web development and AI application development. Worked on real-time projects using React.js, Node.js, Python, AI/ML, and database technologies. Developed and enhanced frontend and backend features while learning modern development and debugging practices.",
+    "learnings": [
+      "Full-stack web application development",
+      "React.js frontend development",
+      "Node.js and backend development",
+      "REST API integration",
+      "Python and AI/ML concepts",
+      "RAG and LLM-based applications",
+      "Database integration and management",
+      "Git and GitHub version control"
+    ],
+    "tools": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Python",
+      "AI & ML",
+      "RAG",
+      "LLM",
+      "REST APIs",
+      "MongoDB",
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
+    "title": "Web Developer Intern",
+    "company": "Tech Force",
+    "duration": "1 Month",
+    "location": "Salem, Tamil Nadu",
+    "description": "Gained practical experience in web development and frontend technologies. Worked on responsive web pages and improved my understanding of HTML, CSS, JavaScript, UI design, and modern web development practices.",
+    "learnings": [
+      "HTML and CSS development",
+      "JavaScript fundamentals",
+      "Responsive web design",
+      "Frontend development practices",
+      "UI design principles",
+      "Website debugging and testing",
+      "Canva for visual design",
+      "Basic Git and version control"
+    ],
+    "tools": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Canva",
+      "Responsive Design",
+      "Git",
+      "GitHub"
+    ]
+  }
+],
+  "careerObjective": {
+    "title": "What's Next?",
+    "description": "Actively seeking entry-level positions where I can contribute to meaningful projects while continuing to grow as a full-stack developer. Looking forward to joining a collaborative team environment.",
+    "status": ["Seeking Opportunities", "Continuous Learning"]
+  },
+  "projects": [
+    {
+      "title": "ApplyVault",
+      "summary": "A full-stack job application tracking system that helps users manage and monitor their job applications.",
+      "description": "ApplyVault is a web-based job application tracking system designed to help users organize and manage their job search activities. Users can add, update, view, and delete job application records and track their application status. The application is built using React.js for the frontend, Spring Boot and Java for the backend, RESTful APIs for communication, and MySQL for data storage.",
+      "url": "",
+      "github": "https://github.com/Vinothkumar2003/ApplyVault",
+      "tools": ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs"],
+      "features": [
+        "Add, update, view, and delete job applications.",
+        "Track application status across different stages.",
+        "RESTful API integration between frontend and backend.",
+        "Database management using MySQL.",
+        "Responsive user interface built with React.js."
+      ],
+      "image": "https://placehold.co/600x400/00897B/ffffff?text=ApplyVault",
+      "year": "2026",
+      "status": "Completed"
+    },
+    {
+      "title": "FitSphere - Gym Management",
+      "summary": "A full-stack gym management system for managing memberships, attendance, and gym operations.",
+      "description": "FitSphere is a web-based gym management application developed to simplify gym membership workflows, attendance management, and subscription tracking. The application uses React.js for the frontend and Java with Spring Boot for the backend, with MySQL for database management. It provides a responsive interface for managing gym-related information and streamlining day-to-day operations.",
+      "url": "",
+      "github": "https://github.com/Vinoth001704/FitSphere",
+      "tools": ["Java", "Spring Boot", "MySQL", "React.js", "CSS"],
+      "features": [
+        "Gym member management",
+        "Membership and subscription tracking",
+        "Attendance management",
+        "REST API integration",
+        "Responsive React.js interface"
+      ],
+      "image": "https://placehold.co/600x400/00897B/ffffff?text=FitSphere",
+      "year": "2026",
+      "status": "Completed"
+    },
+    {
+      "title": "FestMate Web App",
+      "summary": "A full-stack event management web application for managing events, user registrations, and schedules.",
+      "description": "FestMate is a full-stack event management platform built using the MERN stack. It allows users to manage event registrations and track event schedules through a responsive web interface. The application includes JWT-based authentication, secure password hashing, MongoDB database integration using Mongoose, and RESTful APIs developed with Express.js.",
+      "url": "https://fest-mate-web-app.vercel.app/",
+      "github": "https://github.com/Vinoth001704/FestMateWebApp",
+      "tools": ["MongoDB", "Express.js", "React.js", "Node.js", "CSS"],
+      "features": [
+        "Event creation and management",
+        "User registration and authentication",
+        "Event schedule tracking",
+        "JWT-based authentication",
+        "Responsive design"
+      ],
+      "image": "https://placehold.co/600x400/1976d2/ffffff?text=FestMate",
+      "year": "2025",
+      "status": "Completed"
+    },
+    {
+      "title": "Strong Password Generator",
+      "summary": "A lightweight utility tool that creates secure, customizable passwords instantly.",
+      "description": "A clean, user-friendly web application that generates cryptographically strong passwords tailored to user preferences. Users can configure password length, include or exclude character types, and copy the result to the clipboard with a single click.",
+      "url": "https://vinoth-password-generator.com",
+      "github": "https://github.com/vinoth/password-generator",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "features": ["Customizable password length", "Character type selection", "Copy to clipboard"],
+      "image": "https://placehold.co/600x400/3C873A/ffffff?text=Password+Generator",
+      "year": "2024",
+      "status": "Completed"
+    },
+    {
+      "title": "Weather App",
+      "summary": "A responsive weather application delivering real-time forecasts and location-based updates.",
+      "description": "A dynamic weather application that fetches and displays real-time meteorological data using the OpenWeatherMap API. Built with React.js, featuring an intuitive UI and responsive layout.",
+      "url": "https://vinoth-weather-app.com",
+      "github": "https://github.com/vinoth/weather-app",
+      "tools": ["React.js", "OpenWeatherMap API", "JavaScript", "CSS"],
+      "features": ["Current weather display", "5-day forecast", "Location search", "Responsive mobile UI"],
+      "image": "https://placehold.co/600x400/F0DB4F/222222?text=Weather+App",
+      "year": "2024",
+      "status": "Completed"
+    },
+    {
+      "title": "QR Code Generator",
+      "summary": "A simple web tool to instantly generate QR codes from any text or URL.",
+      "description": "A clean and intuitive QR Code Generator that lets users enter any text or URL and instantly produces a scannable QR code. Built with HTML, CSS, and JavaScript.",
+      "url": "https://regal-fudge-d66902.netlify.app/",
+      "github": "https://github.com/Vinoth001704/QRCodeGenerator",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "features": ["Real-time QR code generation", "Text and URL support", "Download QR code", "Responsive design"],
+      "image": "https://placehold.co/600x400/8E24AA/ffffff?text=QR+Code+Generator",
+      "year": "2024",
+      "status": "Completed"
+    },
+    {
+      "title": "Hangman Game",
+      "summary": "A classic word-guessing game built as an interactive web application.",
+      "description": "An engaging Hangman game where players guess letters to reveal a hidden word before running out of attempts. Built with HTML, CSS, and JavaScript.",
+      "url": "https://hangmangamein.netlify.app/",
+      "github": "https://github.com/Vinoth001704/HangmanGame",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "features": ["Interactive letter guessing", "Visual hangman drawing", "Multiple word categories", "Responsive design"],
+      "image": "https://placehold.co/600x400/E65100/ffffff?text=Hangman+Game",
+      "year": "2024",
+      "status": "Completed"
+    }
+  ],
+  "overallSkills": [
+  "HTML5",
+  "CSS3",
+  "JavaScript",
+  "React.js",
+  "Bootstrap 5",
+  "Node.js",
+  "Express.js",
+  "Java",
+  "Python",
+  "C++",
+  "SQL",
+  "MongoDB",
+  "Spring Boot",
+  "REST APIs",
+  "Git",
+  "GitHub",
+  "VS Code",
+  "IntelliJ IDEA",
+  "AI & Machine Learning",
+  "RAG",
+  "Responsive Design",
+  "Canva"
+],
+
+"certifications": [
+  "Course in Java Full Stack Development by Code Pilot",
+  "Course in Employability Skills Development Training Programme - (TITAN LeAP)",
+  "Course in Privacy and Security in Online Social Media by NPTEL (National Programme on Technology Enhanced Learning)"
+],
+
+"miniProjects": [
+  {
+    "title": "Solar System",
+    "description": "An interactive Solar System visualization developed as my college final-year project, featuring planets, animations, and an informative responsive interface.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design"
+    ]
+  },
+  {
+    "title": "Weather App",
+    "description": "A responsive weather application that displays weather information using an API.",
+    "skills": ["React.js", "JavaScript", "CSS", "API"]
+  },
+  {
+    "title": "QR Code Generator",
+    "description": "A web application that generates QR codes from text or URLs.",
+    "skills": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Hangman Game",
+    "description": "An interactive word guessing game developed as a browser-based application.",
+    "skills": ["HTML", "CSS", "JavaScript"]
+  }
+],
+
+"achievements": [
+  "2st Prize for Paper Presentation at Muthayammal College of Engineering, Rasipuram"
+],
+
+"languages": [
+  "English",
+  "Tamil"
+]
+}
